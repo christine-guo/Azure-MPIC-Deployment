@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set Azure subscription (replace with your actual subscription ID)
-SUBSCRIPTION_ID="ef2dcc0a-7fdc-4966-8b93-d91e72797bed"
+SUBSCRIPTION_ID="[REPLACE WITH YOUR SUBSCRIPTION ID]"
 az account set --subscription $SUBSCRIPTION_ID
 
 # Define VMs and their corresponding regions and IPs (using the new names)
