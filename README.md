@@ -5,7 +5,7 @@ This codebase deploys a Multi-Perspective Issuance Corroboration (MPIC) implemen
 
 ## MPIC Deployment Setup 
 1. **Download Azure CLI and clone this repo**
-    - Make note of your subscription ID
+    - Make note of your subscription ID and set SUBSCRIPTION_ID in deploy.sh to it.
 2.  **Create Terraform resources**
     - Run the following line to deploy the necessary resources:
       ```bash
